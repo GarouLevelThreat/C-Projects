@@ -1,0 +1,7 @@
+# Tema 2
+
+Comentariile de la fiecare task explica pas cu pas modul in care am lucrat.
+
+Task 8 - Am retinut unsigned int urile din care extrag datele intr-un vector, iar unsigned int urile din care extrag bitii de control in alt vector. Ideea cu care am venit a fost sa aduc problema la una de tip Task 7. Astfel, parcurg toate datele si fac verificarile aferente, iar datele valide le transform in unsigned int uri pe care le adaug intr-un nou vector. In final, sortez vectorul, transform unsigned int urile in format ul cerut si realizez afisarea.
+
+Task 9 - Atunci cand citesc datele, convertesc intervalele intr-un timestamp de start si unul de end. In timpul realizarii citirii datelor si retinerii lor intr-un vector de structuri, concatenez intervalele care se afla unul in prelungirea celuilalt si adaug timestampul de start intr-un vector. (daca acesta nu se afla in deja vector). Sortez acest vector (pentru a determina primul interval care valideaza respecta cerinta atunci cand parcurg vectorul de structuri), parcurg vectorul de structuri si verific daca persoana curenta este libera in acel interval. Daca da, scad numarul de persoane lipsa. Odata gasite suficiente persoane (sau afisez "imposibil"), parcurg din nou acest vector si afisez in formatul cerut disponibilitatea persoanelor.
